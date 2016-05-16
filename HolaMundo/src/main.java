@@ -12,6 +12,7 @@ public class main {
 		r2d2.set_age(Integer.parseInt(JOptionPane.showInputDialog("Put your age")));
 		System.out.print("Tu edad es: ");
 		System.out.println(r2d2.get_age());
+		
 	}
 
 }
