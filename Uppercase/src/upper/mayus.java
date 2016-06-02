@@ -23,15 +23,15 @@ public class mayus {
 		 int aux;
 		 aux=cad.length();
 		 if(aux<3)
-			{System.out.println(cad.toUpperCase());}
+			{JOptionPane.showMessageDialog(null,cad.toUpperCase());}
 		 else
 		 {str1 = cad.substring(0,cad.length()-3);
 		 str2 = cad.toUpperCase().substring(cad.length()-3);
-		 System.out.println(str1+str2);}
+		 JOptionPane.showMessageDialog(null,(str1+str2));}
 	}
 	
 	public void finalize(){
-		System.out.println("El programa se va a cerrar");
+		JOptionPane.showMessageDialog(null,"El programa se va a cerrar");
 	}
 
 }
