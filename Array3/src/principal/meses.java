@@ -19,7 +19,7 @@ public class meses {
 	}
 
 	public void dev_mes(int v){
-		System.out.print("El mes es: "+mes[v]);
+		System.out.print("El mes es: "+mes[v-1]);
 	}
 
 }
