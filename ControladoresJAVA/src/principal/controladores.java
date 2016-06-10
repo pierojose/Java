@@ -11,6 +11,25 @@ public class controladores {
 		
 	}
 	
+	public controladores(String codigo){
+		this.codigo = codigo;
+	}
+	
+	public controladores(int tama){
+		this.tama = tama;
+	}
+
+	public controladores(String codigo, int tama){
+		this.codigo = codigo;
+		this.tama = tama;
+	}
+	
+	public controladores(String codigo, int tama, String color){
+		this.codigo = codigo;
+		this.tama = tama;
+		this.color = color;
+	}
+	
 	//GETTERS AND SETTERS
 	public String getCodigo() {
 		return codigo;
