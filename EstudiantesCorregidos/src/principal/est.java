@@ -2,8 +2,7 @@ package principal;
 
 import javax.swing.JOptionPane;
 
-public class est {
-	
+public class est {	
 	private float notas_parciales,nota_examen;
 	private String nombres, materia, matricula;
 	
@@ -70,5 +69,4 @@ public class est {
 	protected void finalize(){
 		JOptionPane.showMessageDialog(null, "El programa se va a cerrar");
 	}
-
 }
