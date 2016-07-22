@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><inserts>
-    <option>﻿0001;Jose Araujo;Fisica;25.0;9.3;</option>
-    <option>0002;Piero Palacios;Matematica;20.0;8.0;</option>
-    <option>0003;Marta Sanchez;Progamacion;22.5;15;</option>
-    <option>0004;Carlos Baute;Ingles;20.0;12.0</option>
-</inserts>
+<?xml version="1.0" encoding="UTF-8"?><menu>
+    <estudiante>﻿0001;Jose Araujo;Fisica;25.0;9.3;</estudiante>
+    <estudiante>0003;Marta Sanchez;Progamacion;22.5;15;</estudiante>
+    <estudiante>0004;Carlos Baute;Ingles;20.0;12.0</estudiante>
+    <estudiante>0002;Piero Palacios;Matematicas;22.0;15.0</estudiante>
+    <estudiante/>
+</menu>

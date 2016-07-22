@@ -1,7 +1,7 @@
 package estudiantes;
 
-import org.xml.sax.*;
 
+import org.xml.sax.*;
 import javax.swing.JOptionPane;
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
@@ -21,6 +21,7 @@ import java.util.Vector;
 public class Estudiantes {
 	
 	static toXML pro = new toXML();
+	static toJSON pro1 = new toJSON();
 
     public static void main(String[] args) {
         //VARIABLES 
@@ -36,7 +37,6 @@ public class Estudiantes {
         String materia = "";
         double nota_parciales = 0;
         double nota_examen = 0;
-        Scanner sc = new Scanner(System.in);
 
         String lineafichero = ""; //Cada linea del fichero.txt 
         String codigo = ""; //Codigo a borrar 
@@ -171,7 +171,7 @@ public class Estudiantes {
 
                         FileWriter escribir = new FileWriter(archivo, true);
                         PrintWriter escribirbien = new PrintWriter(escribir);
-                        escribirbien.println(matricula + ";" + nombre + ";" + materia + ";" + nota_parciales + ";" + nota_examen);
+                        escribirbien.print(matricula + ";" + nombre + ";" + materia + ";" + nota_parciales + ";" + nota_examen);
                         escribirbien.close();
                         escribir.close();
 
@@ -222,7 +222,7 @@ public class Estudiantes {
                     try {
                         FileWriter escribir = new FileWriter(archivo, true);
                         PrintWriter escribirbien = new PrintWriter(escribir);
-                        escribirbien.println(alum.matricula + ";" + alum.nombre + ";" + alum.materia + ";" + alum.nota_parciales + ";" + alum.nota_examen);
+                        escribirbien.print(alum.matricula + ";" + alum.nombre + ";" + alum.materia + ";" + alum.nota_parciales + ";" + alum.nota_examen);
                         escribirbien.close();
                         escribir.close();
                     } catch (Exception e) {
@@ -233,10 +233,14 @@ public class Estudiantes {
                     
                 case 7:
                 	pro.begin();
-                	                        
+                	//pro1.getXMLfromJson();                        
+                 break;
+                 
+                case 8:
+                        
                  break;
 
-                case 8:
+                case 9:
                 	JOptionPane.showMessageDialog(null,"Ud. ha Salido");
                     break;
 
@@ -247,7 +251,7 @@ public class Estudiantes {
             }
 
         } while (op
-                != 8);
+                != 9);
     }
 
 }

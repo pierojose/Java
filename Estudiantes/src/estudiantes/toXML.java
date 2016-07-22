@@ -47,17 +47,17 @@ public class toXML {
 
         th.setResult(out);
         th.startDocument();
-        th.startElement(null, null, "inserts", null);
+        th.startElement(null, null, "menu", null);
     }
 
     public void process(String s) throws SAXException {
-        th.startElement(null, null, "option", null);
+        th.startElement(null, null, "estudiante", null);
         th.characters(s.toCharArray(), 0, s.length());
-        th.endElement(null, null, "option");
+        th.endElement(null, null, "estudiante");
     }
 
     public void closeXml() throws SAXException {
-        th.endElement(null, null, "inserts");
+        th.endElement(null, null, "menu");
         th.endDocument();
 
 
