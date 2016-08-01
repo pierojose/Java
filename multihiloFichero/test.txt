@@ -1,0 +1,11 @@
+
+4565|Maria Simisterra|Direccion|Esmeraldas|20
+5698|Carlos Mideros|Barrio Alto|Quininde|17
+9834|Fork Cevallos|Los Hermanos|Esmeraldas|17
+8789|Tera Estupinan|Prado|Quininde|23
+7412|Karla Quinonez|20 de Noviembre|Esmeraldas|45
+4852|Marcos Lirios|Duran|Atacames|60
+5874|Anthony Hernandez|Nuevo Mexico|Esmeraldas|20
+1230|Cristhian Reacalde|La guacharaca|Atacames|19
+2410|Piero Jose|Isla Piedad|Tonsupa|15
+4587|JOhanna Choez|Luz y Vida|Esmeraldas|21

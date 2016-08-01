@@ -1,0 +1,10 @@
+4565|Maria Simisterra|Direccion|Esmeraldas|20
+5698|Carlos Mideros|Barrio Alto|Quininde|17
+9834|Fork Cevallos|Los Hermanos|Esmeraldas|17
+8789|Tera Estupinan|Prado|Quininde|23
+7412|Karla Quinonez|20 de Noviembre|Esmeraldas|45
+4852|Marcos Lirios|Duran|Atacames|60
+0002|Jenniffer Bautista|Codesa|Esmeraldas|22
+4836|Joaquin Zambrano|Esmeraldas Libre|Esmeraldas|58
+0005|Emperatriz Rivero|Barrio Lindo|Atacames|75
+0001|Andres Robles|Las Palmas|Esmeraldas|19

@@ -21,7 +21,7 @@ import java.util.Vector;
 public class Estudiantes {
 	
 	static toXML pro = new toXML();
-	static toJSON pro1 = new toJSON();
+	//static toJSON pro1 = new toJSON();
 
     public static void main(String[] args) {
         //VARIABLES 
@@ -250,10 +250,8 @@ public class Estudiantes {
 
             }
 
-        } while (op
-                != 9);
+        } while (op != 9);
     }
-
 }
 
 class Alumnos {
